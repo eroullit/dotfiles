@@ -1,0 +1,258 @@
+[git/bro]
+checkout = git clone 'git://git.bro.org/bro.git' 'bro'
+
+[git/bup]
+checkout = git clone 'git://github.com/bup/bup' 'bup'
+
+[git/busybox]
+checkout = git clone 'git://git.busybox.net/busybox' 'busybox'
+
+[git/Carberp]
+checkout = git clone 'https://github.com/hzeroo/Carberp.git' 'Carberp'
+
+[git/cmake]
+checkout = git clone 'git://cmake.org/cmake.git' 'cmake'
+
+[git/czmq]
+checkout = git clone 'git://github.com/zeromq/czmq.git' 'czmq'
+
+[git/dabba]
+checkout = git clone 'git://github.com/eroullit/dabba.git' 'dabba'
+
+[git/dabba-dev]
+checkout = git clone 'git@github.com:eroullit/dabba-dev.git' 'dabba-dev'
+
+[git/downloadify]
+checkout = git clone 'git://github.com/raldenhoven/downloadify.git' 'downloadify'
+
+[git/dpdk]
+checkout = git clone 'git://dpdk.org/dpdk' 'dpdk'
+
+[git/ethtool]
+checkout = git clone 'git://git.kernel.org/pub/scm/network/ethtool/ethtool.git' 'ethtool'
+
+[git/evalimine]
+checkout = git clone 'https://github.com/vvk-ehk/evalimine.git' 'evalimine'
+
+[git/exfat-nofuse]
+checkout = git clone 'https://github.com/rxrz/exfat-nofuse.git' 'exfat-nofuse'
+
+[git/finalterm]
+checkout = git clone 'https://github.com/p-e-w/finalterm' 'finalterm'
+
+[git/freeaml]
+checkout = git clone 'git://github.com/dassencio/freeaml.git' 'freeaml'
+
+[git/git]
+checkout = git clone 'https://github.com/git/git.git' 'git'
+
+[git/glibc]
+checkout = git clone 'git://sourceware.org/git/glibc.git' 'glibc'
+
+[git/handbook]
+checkout = git clone 'https://github.com/cryptoparty/handbook' 'handbook'
+
+[git/JohnTheRipper]
+checkout = git clone 'https://github.com/magnumripper/JohnTheRipper' 'JohnTheRipper'
+
+[git/libcork]
+checkout = git clone 'https://github.com/redjack/libcork.git' 'libcork'
+
+[git/libnl]
+checkout = git clone 'git://github.com/tgraf/libnl.git' 'libnl'
+
+[git/libpcap]
+checkout = git clone 'git://bpf.tcpdump.org/libpcap' 'libpcap'
+
+[git/tcpdump]
+checkout = git clone 'git://bpf.tcpdump.org/tcpdump' 'tcpdump'
+
+[git/libvirt]
+checkout = git clone 'git://libvirt.org/libvirt.git' 'libvirt'
+
+[git/libzmq]
+checkout = git clone 'git://github.com/zeromq/libzmq.git' 'libzmq'
+
+[git/linux]
+checkout = git clone 'git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git' 'linux'
+
+[git/llvm]
+checkout = git clone 'http://llvm.org/git/llvm.git' 'llvm'
+
+[git/lxc]
+checkout = git clone 'https://github.com/lxc/lxc.git' 'lxc'
+
+[git/metasploit-framework]
+checkout = git clone 'https://github.com/rapid7/metasploit-framework.git' 'metasploit-framework'
+
+[git/net2pcap]
+checkout = git clone 'git://github.com/nbareil/net2pcap.git' 'net2pcap'
+
+[git/netsniff-ng]
+checkout = git clone 'git://github.com/borkmann/netsniff-ng.git' 'netsniff-ng'
+
+[git/nurokit]
+checkout = git clone 'git://github.com/nuroko/nurokit.git' 'nurokit'
+
+[git/openflow]
+checkout = git clone 'git://gitosis.stanford.edu/openflow' 'openflow'
+
+[git/openssl]
+checkout = git clone 'git://git.openssl.org/openssl.git' 'openssl'
+
+[git/openwrt]
+checkout = git clone 'git://git.mirror.nanl.de/openwrt/trunk.git' 'openwrt'
+
+[git/pfsense]
+checkout = git clone 'git://github.com/pfsense/pfsense.git' 'pfsense'
+
+[git/Proxmoxia]
+checkout = git clone 'git://github.com/baseblack/Proxmoxia.git' 'Proxmoxia'
+
+[git/pve-kernel-2.6.32]
+checkout = git clone 'git://git.proxmox.com/git/pve-kernel-2.6.32.git' 'pve-kernel-2.6.32'
+
+[git/QHBot]
+checkout = git clone 'https://github.com/hzeroo/QHBot.git' 'QHBot'
+
+[git/quagga]
+checkout = git clone 'git://git.savannah.nongnu.org/quagga.git' 'quagga'
+
+[git/rainbarf]
+checkout = git clone 'https://github.com/creaktive/rainbarf.git' 'rainbarf'
+
+[git/salt]
+checkout = git clone 'git://github.com/saltstack/salt.git' 'salt'
+
+[git/sharness]
+checkout = git clone 'git://github.com/mlafeldt/sharness.git' 'sharness'
+
+[git/Skyperious]
+checkout = git clone 'git://github.com/suurjaak/Skyperious.git' 'Skyperious'
+
+[git/source-sdk-2013]
+checkout = git clone 'https://github.com/ValveSoftware/source-sdk-2013' 'source-sdk-2013'
+
+[git/spl]
+checkout = git clone 'git://github.com/zfsonlinux/spl.git' 'spl'
+
+[git/strongswan]
+checkout = git clone 'git://git.strongswan.org/strongswan.git' 'strongswan'
+
+[git/syslinux]
+checkout = git clone 'git://git.kernel.org/pub/scm/boot/syslinux/syslinux.git' 'syslinux'
+
+[git/tcpdump]
+checkout = git clone 'git://bpf.tcpdump.org/tcpdump' 'tcpdump'
+
+[git/tcpreplay]
+checkout = git clone 'https://github.com/synfinatic/tcpreplay.git' 'tcpreplay'
+
+[git/the_silver_searcher]
+checkout = git clone 'git://github.com/ggreer/the_silver_searcher.git' 'the_silver_searcher'
+
+[git/tig]
+checkout = git clone 'git://github.com/jonas/tig.git' 'tig'
+
+[git/travis-ci]
+checkout = git clone 'https://github.com/travis-ci/travis-ci.git' 'travis-ci'
+
+[git/unique]
+checkout = git clone 'git://git.gnome.org/unique' 'unique'
+
+[git/vagrant]
+checkout = git clone 'git://github.com/mitchellh/vagrant.git' 'vagrant'
+
+[git/veewee]
+checkout = git clone 'git://github.com/jedi4ever/veewee.git' 'veewee'
+
+[git/virt-manager]
+checkout = git clone 'git://git.fedorahosted.org/git/virt-manager.git' 'virt-manager'
+
+[git/vrf-tools]
+checkout = git clone 'git://spaceboyz.net/equinox/vrf-tools.git' 'vrf-tools'
+
+[git/web-malware-collection]
+checkout = git clone 'git://github.com/nikicat/web-malware-collection.git' 'web-malware-collection'
+
+[git/wireshark]
+checkout = git clone 'http://code.wireshark.org/git/wireshark' 'wireshark'
+
+[git/xz]
+checkout = git clone 'http://git.tukaani.org/xz.git' 'xz'
+
+[git/zguide]
+checkout = git clone 'git://github.com/imatix/zguide.git' 'zguide'
+
+[git-svn/zfs]
+checkout = git clone 'git://github.com/zfsonlinux/zfs.git' 'zfs'
+
+[hg/my-scapy]
+checkout = hg clone 'http://hg.secdev.org/scapy' 'my-scapy'
+
+[hg/ostinato]
+checkout = hg clone 'https://code.google.com/p/ostinato/' 'ostinato'
+
+[hg/toybox]
+checkout = hg clone 'http://landley.net/hg/toybox' 'toybox'
+
+[git/dabba-dev]
+checkout = git clone 'git@github.com:eroullit/dabba-dev.git'
+
+[git/DOOM-3-BFG]
+checkout = git clone 'git://github.com/id-Software/DOOM-3-BFG.git'
+
+[git/libabc]
+checkout = git clone 'git://git.kernel.org/pub/scm/linux/kernel/git/kay/libabc.git'
+
+[git/Gource]
+checkout = git clone 'git://github.com/acaudwell/Gource.git'
+
+[git/libnet]
+checkout = git clone 'git://github.com/sam-github/libnet.git'
+
+[git/libsodium]
+checkout = git clone 'git://github.com/jedisct1/libsodium.git'
+
+[git/libxml2]
+checkout = git clone 'git://git.gnome.org/libxml2'
+
+[git/ProjectTox-Core]
+checkout = git clone 'https://github.com/irungentoo/ProjectTox-Core.git'
+
+[git/Pktgen-DPDK]
+checkout = git clone 'git://github.com/Pktgen/Pktgen-DPDK.git'
+
+[git/PacketQ]
+checkout = git clone 'git://github.com/dotse/PacketQ.git'
+
+[git/packetpig]
+checkout = git clone 'git://github.com/packetloop/packetpig.git'
+
+[git/PyBitmessage]
+checkout = git clone 'git://github.com/Bitmessage/PyBitmessage.git'
+
+[git/suricata]
+checkout = git clone 'git://github.com/inliniac/suricata.git'
+
+[git/xbmc]
+checkout = git clone 'git://github.com/xbmc/xbmc.git'
+
+[svn/ntopng]
+checkout = svn checkout 'https://svn.ntop.org/svn/ntop/trunk/ntopng/'
+
+[git/flowgrind]
+checkout = git clone 'git://github.com/flowgrind/flowgrind.git' 'flowgrind'
+
+[git/docker]
+checkout = git clone 'git://github.com/dotcloud/docker.git' 'docker'
+
+[git/Quake-III-Arena]
+checkout = git clone 'https://github.com/id-Software/Quake-III-Arena.git' 'Quake-III-Arena'
+
+[git/rockbox]
+checkout = git clone 'git://git.rockbox.org/rockbox.git' 'rockbox'
+
+[git/Mailpile]
+checkout = git clone 'git@github.com:pagekite/Mailpile.git'
+

@@ -1,6 +1,6 @@
 #!/bin/sh
 
-DOT="bashrc gitconfig vimrc"
+DOT="bashrc gitconfig vimrc mrconfig
 
 for f in $DOT
 do
