@@ -1,0 +1,9 @@
+[user]
+	name = Emmanuel Roullit
+	email = emmanuel.roullit@gmail.com
+[color]
+	ui = auto
+[alias]
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+[core]
+	editor = vim
