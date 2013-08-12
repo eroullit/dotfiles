@@ -155,7 +155,7 @@ parse_branch() {
 }
 
 #export PS1='\[\033[00;32m\]\u\[\033[01m\]@\[\033[00;36m\]\h\[\033[01m\] \! \[\033[00;35m\]\w\[\033[00m\]\[\033[01;30m\]$(parse_git_branch)\[\033[00m\]\$ '
-export PS1='\[\033[00;32m\][\t]\[\033[01m\][$?]\[\033[00;35m\]\w\[\033[00m\]\[\033[01;30m\]$(parse_git_branch)\[\033[00m\]\$ '
+export PS1='[\h]\[\033[00;32m\][\t]\[\033[01m\][$?]\[\033[00;35m\]\w\[\033[00m\]\[\033[01;30m\]$(parse_git_branch)\[\033[00m\]\$ '
 
 # add autojump support
 test -r /usr/share/autojump/autojump.sh && . /usr/share/autojump/autojump.sh
