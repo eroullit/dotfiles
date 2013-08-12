@@ -1,6 +1,6 @@
 #!/bin/sh
 
-DOT="bashrc gitconfig vimrc mrconfig"
+DOT="bashrc gitconfig vimrc mrconfig tmux.conf"
 
 for f in $DOT
 do
