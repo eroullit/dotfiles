@@ -121,6 +121,9 @@ man() {
 			man "$@"
 }
 
+# Reconnect or start a tmux or screen session over ssh
+sssh (){ ssh -t "$1" 'tmux attach || tmux new || screen -DR'; }
+
 parse_git_dirty() {
   status=`git status 2> /dev/null`
   dirty=`    echo -n "${status}" 2> /dev/null | grep -q "Changed but not updated" 2> /dev/null; echo "$?"`
