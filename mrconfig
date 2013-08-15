@@ -256,3 +256,5 @@ checkout = git clone 'git://git.rockbox.org/rockbox.git' 'rockbox'
 [git/Mailpile]
 checkout = git clone 'git@github.com:pagekite/Mailpile.git'
 
+[hg/dropbear]
+checkout = hg clone 'https://secure.ucc.asn.au/hg/dropbear/' 'dropbear'
