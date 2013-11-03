@@ -109,9 +109,6 @@ checkout = git clone 'git://github.com/pfsense/pfsense.git' 'pfsense'
 [git/Proxmoxia]
 checkout = git clone 'git://github.com/baseblack/Proxmoxia.git' 'Proxmoxia'
 
-[git/pve-kernel-2.6.32]
-checkout = git clone 'git://git.proxmox.com/git/pve-kernel-2.6.32.git' 'pve-kernel-2.6.32'
-
 [git/QHBot]
 checkout = git clone 'https://github.com/hzeroo/QHBot.git' 'QHBot'
 
