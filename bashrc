@@ -170,3 +170,6 @@ export PS1='\[\033[1;34m\][\h]\[\033[00;32m\][\t]\[\033[01m\][$?]\[\033[00;35m\]
 
 # add autojump support
 test -r /usr/share/autojump/autojump.sh && . /usr/share/autojump/autojump.sh
+
+export LC_ALL="en_US.UTF-8"
+export LANG="en_US.UTF-8"
