@@ -13,3 +13,5 @@ filetype on
 filetype plugin on
 filetype indent on
 color desert
+set nobackup
+set noswapfile
