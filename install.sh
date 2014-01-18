@@ -1,6 +1,8 @@
 #!/bin/sh
 
-DOT="bashrc gitconfig vimrc mrconfig tmux.conf"
+DOT="bashrc gitconfig vimrc.local mrconfig tmux.conf"
+
+./spf-13-vim/bootstrap.sh
 
 for f in $DOT
 do
