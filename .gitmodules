@@ -1,0 +1,3 @@
+[submodule "spf-13-vim"]
+	path = spf-13-vim
+	url = https://github.com/spf13/spf13-vim
