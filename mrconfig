@@ -267,3 +267,6 @@ checkout = hg clone 'https://code.google.com/p/iperf/' 'iperf'
 
 [git/argparse]
 checkout = git clone 'https://github.com/Cofyc/argparse.git' 'argparse'
+
+[git/linux-dash]
+checkout = git clone 'https://github.com/afaqurk/linux-dash.git' 'linux-dash'
