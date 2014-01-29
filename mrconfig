@@ -261,3 +261,6 @@ checkout = git clone 'https://github.com/250bpm/nanomsg.git' 'nanomsg'
 
 [svn/protobuf-c]
 checkout = svn co 'http://protobuf-c.googlecode.com/svn/trunk' 'protobuf-c'
+
+[hg/iperf]
+checkout = hg clone 'https://code.google.com/p/iperf/' 'iperf'
