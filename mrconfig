@@ -264,3 +264,6 @@ checkout = svn co 'http://protobuf-c.googlecode.com/svn/trunk' 'protobuf-c'
 
 [hg/iperf]
 checkout = hg clone 'https://code.google.com/p/iperf/' 'iperf'
+
+[git/argparse]
+checkout = git clone 'https://github.com/Cofyc/argparse.git' 'argparse'
