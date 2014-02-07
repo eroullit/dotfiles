@@ -88,6 +88,7 @@ alias l='ls -CF'
 alias ack='ack-grep'
 alias sl='ls'
 alias json='python -m json.tool'
+alias tmux='TERM=screen-256color-bce tmux'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
