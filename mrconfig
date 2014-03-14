@@ -270,3 +270,33 @@ checkout = git clone 'https://github.com/Cofyc/argparse.git' 'argparse'
 
 [git/linux-dash]
 checkout = git clone 'https://github.com/afaqurk/linux-dash.git' 'linux-dash'
+
+[vcs/git/cryptsetup]
+checkout = git clone 'https://code.google.com/p/cryptsetup/' 'cryptsetup'
+
+[vcs/git/dotfiles]
+checkout = git clone 'https://github.com/eroullit/dotfiles.git' 'dotfiles'
+
+[vcs/git/downloadify]
+checkout = git clone 'git://github.com/raldenhoven/downloadify.git' 'downloadify'
+
+[vcs/git/dpdk-ovs]
+checkout = git clone 'https://github.com/01org/dpdk-ovs.git' 'dpdk-ovs'
+
+[vcs/git/eventmachine-code]
+checkout = git clone 'git://git.code.sf.net/p/eventmachine/code' 'eventmachine-code'
+
+[vcs/git/libabc]
+checkout = git clone 'git://git.kernel.org/pub/scm/linux/kernel/git/kay/libabc.git' 'libabc'
+
+[vcs/git/libnet]
+checkout = git clone 'git://github.com/sam-github/libnet.git' 'libnet'
+
+[vcs/git/netmap]
+checkout = git clone 'https://code.google.com/p/netmap/' 'netmap'
+
+[vcs/git/odp]
+checkout = git clone 'git://git.linaro.org/lng/odp.git' 'odp'
+
+[vcs/git/Pktgen-DPDK]
+checkout = git clone 'git://github.com/Pktgen/Pktgen-DPDK.git' 'Pktgen-DPDK'
