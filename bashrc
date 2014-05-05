@@ -132,6 +132,10 @@ mcd(){
 	mkdir -p "$1" && cd "$1"
 }
 
+strerror() {
+    python -c "import os; print os.strerror($1)"
+}
+
 parse_git_dirty() {
   status=`git status 2> /dev/null`
   dirty=`    echo -n "${status}" 2> /dev/null | grep -q "Changed but not updated" 2> /dev/null; echo "$?"`
