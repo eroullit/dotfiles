@@ -301,7 +301,7 @@ checkout = git clone 'git://git.linaro.org/lng/odp.git' 'odp'
 [vcs/git/Pktgen-DPDK]
 checkout = git clone 'git://github.com/Pktgen/Pktgen-DPDK.git' 'Pktgen-DPDK'
 
-[stackedit]
+[vcs/git/stackedit]
 checkout = git clone 'https://github.com/benweet/stackedit.git' 'stackedit'
 
 [vcs/git/mdp]
