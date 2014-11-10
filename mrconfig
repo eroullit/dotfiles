@@ -303,3 +303,6 @@ checkout = git clone 'git://github.com/Pktgen/Pktgen-DPDK.git' 'Pktgen-DPDK'
 
 [stackedit]
 checkout = git clone 'https://github.com/benweet/stackedit.git' 'stackedit'
+
+[vcs/git/mdp]
+checkout = git clone 'https://github.com/visit1985/mdp.git' 'mdp'
