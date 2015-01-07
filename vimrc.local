@@ -11,3 +11,15 @@ set noexpandtab
 set nolist
 set shell=/bin/bash
 colorscheme solarized
+noremap <up> <nop>
+inoremap <up> <nop>
+vnoremap <up> <nop>
+noremap <down> <nop>
+inoremap <down> <nop>
+vnoremap <down> <nop>
+noremap <left> <nop>
+inoremap <left> <nop>
+vnoremap <left> <nop>
+noremap <right> <nop>
+inoremap <right> <nop>
+vnoremap <right> <nop>
