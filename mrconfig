@@ -306,3 +306,9 @@ checkout = git clone 'https://github.com/benweet/stackedit.git' 'stackedit'
 
 [vcs/git/mdp]
 checkout = git clone 'https://github.com/visit1985/mdp.git' 'mdp'
+
+[vcs/git/tmux-code]
+checkout = git clone 'git://git.code.sf.net/p/tmux/tmux-code' 'tmux-code'
+
+[vcs/git/tmuxomatic]
+checkout = git clone 'https://github.com/oxidane/tmuxomatic.git' 'tmuxomatic'
