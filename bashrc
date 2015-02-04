@@ -170,8 +170,8 @@ parse_branch() {
   git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e "s/* \(.*\)/\1$(parse_git_dirty)/"
 }
 
-#export PS1='\[\033[00;32m\]\u\[\033[01m\]@\[\033[00;36m\]\h\[\033[01m\] \! \[\033[00;35m\]\w\[\033[00m\]\[\033[01;30m\]$(parse_git_branch)\[\033[00m\]\$ '
-export PS1='\[\033[1;34m\][\h]\[\033[00;32m\][\t]\[\033[01m\][$?]\[\033[00;35m\]\w\[\033[00m\]\[\033[01;30m\]$(parse_git_branch)\[\033[00m\]\$ '
+. "$HOME/.oh-my-git/prompt.sh"
+export PS1="[\h][\t][$?]$PS1"
 
 # add autojump support
 test -r /usr/share/autojump/autojump.sh && . /usr/share/autojump/autojump.sh
