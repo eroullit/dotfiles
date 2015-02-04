@@ -4,3 +4,6 @@
 [submodule "oh-my-git"]
 	path = oh-my-git
 	url = https://github.com/arialdomartini/oh-my-git.git
+[submodule "awesome-terminal-fonts"]
+	path = awesome-terminal-fonts
+	url = http://github.com/gabrielelana/awesome-terminal-fonts
