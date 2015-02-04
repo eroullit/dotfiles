@@ -136,40 +136,6 @@ strerror() {
     python -c "import os; print os.strerror($1)"
 }
 
-parse_git_dirty() {
-  status=`git status 2> /dev/null`
-  dirty=`    echo -n "${status}" 2> /dev/null | grep -q "Changed but not updated" 2> /dev/null; echo "$?"`
-  untracked=`echo -n "${status}" 2> /dev/null | grep -q "Untracked files" 2> /dev/null; echo "$?"`
-  ahead=`    echo -n "${status}" 2> /dev/null | grep -q "Your branch is ahead of" 2> /dev/null; echo "$?"`
-  newfile=`  echo -n "${status}" 2> /dev/null | grep -q "new file:" 2> /dev/null; echo "$?"`
-  renamed=`  echo -n "${status}" 2> /dev/null | grep -q "renamed:" 2> /dev/null; echo "$?"`
-  bits=''
-  if [ "${dirty}" == "0" ]; then
-    bits="${bits}?"
-  fi
-  if [ "${untracked}" == "0" ]; then
-    bits="${bits}?"
-  fi
-  if [ "${newfile}" == "0" ]; then
-    bits="${bits}*"
-  fi
-  if [ "${ahead}" == "0" ]; then
-    bits="${bits}+"
-  fi
-  if [ "${renamed}" == "0" ]; then
-    bits="${bits}>"
-  fi
-  echo "${bits}"
-}
-
-parse_git_branch() {
-  git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e "s/* \(.*\)/(\1$(parse_git_dirty))/"
-}
-
-parse_branch() {
-  git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e "s/* \(.*\)/\1$(parse_git_dirty)/"
-}
-
 . "$HOME/.oh-my-git/prompt.sh"
 export PS1="[\h][\t][$?]$PS1"
 
