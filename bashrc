@@ -136,8 +136,12 @@ strerror() {
     python -c "import os; print os.strerror($1)"
 }
 
+sh_prompt() {
+    PS1="[\t][$?]$(build_prompt)"
+}
+
 . "$HOME/.oh-my-git/prompt.sh"
-export PS1="[\h][\t][$?]$PS1"
+PROMPT_COMMAND=sh_prompt
 
 # add autojump support
 test -r /usr/share/autojump/autojump.sh && . /usr/share/autojump/autojump.sh
