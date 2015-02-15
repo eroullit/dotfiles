@@ -5,5 +5,7 @@
 	ui = auto
 [alias]
 	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+	merged = "!git branch --merged | grep  -v '\\*\\|master\\|develop'"
+	remote-merged = "!git branch -r --merged | grep  -v '\\*\\|master\\|develop' | sed 's,origin/,:,'"
 [core]
 	editor = vi
