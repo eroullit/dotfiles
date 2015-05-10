@@ -9,3 +9,5 @@
 	remote-merged = "!git branch -r --merged | grep  -v '\\*\\|master\\|develop' | sed 's,origin/,:,'"
 [core]
 	editor = vi
+[merge]
+	ff = false
