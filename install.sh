@@ -1,11 +1,8 @@
 #!/bin/sh
 
-DOT="bashrc gitconfig vimrc.local mrconfig tmux.conf oh-my-git"
+DOT="bashrc gitconfig vimrc.local mrconfig tmux.conf"
 
 ./spf-13-vim/bootstrap.sh
-
-mkdir -p ~/.fonts
-cp "$PWD"/awesome-terminal-fonts/patched/*.ttf ~/.fonts
 
 for f in $DOT
 do
