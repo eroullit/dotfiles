@@ -17,3 +17,5 @@
 	autosquash = true
 [grep]
 	lineNumber = true
+[push]
+	default = simple
