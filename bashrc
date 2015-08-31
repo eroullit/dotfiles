@@ -143,3 +143,5 @@ test -r /usr/share/autojump/autojump.sh && . /usr/share/autojump/autojump.sh
 
 export LC_ALL="en_US.UTF-8"
 export LANG="en_US.UTF-8"
+export PAGER="less"
+export EDITOR="vi"
