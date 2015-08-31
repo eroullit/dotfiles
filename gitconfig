@@ -16,6 +16,7 @@
 	ranked-email-domains = !git email-domains | sort | uniq -c | sort -n
 [core]
 	editor = vi
+	pager = less -r
 [merge]
 	ff = false
 [help]
