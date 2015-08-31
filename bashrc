@@ -124,7 +124,7 @@ man() {
 
 # Reconnect or start a tmux or screen session over ssh
 sssh(){
-	ssh -t "$1" 'tmux attach || tmux new || screen -DR';
+	TERM=screen-256color-bce ssh -Y -t "$1" 'TERM=screen-256color-bce tmux attach || TERM=screen-256color-bce tmux new || screen -DR';
 }
 
 # Create a directory and 'cd' into it
