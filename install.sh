@@ -9,6 +9,7 @@ cp "$PWD"/awesome-terminal-fonts/patched/*.ttf ~/.fonts
 
 for f in $DOT
 do
+    rm -f "$HOME/.$(basename $f)"
     ln -sf "$PWD/$f" "$HOME/.$(basename $f)"
 done
 
