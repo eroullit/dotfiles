@@ -1,6 +1,6 @@
 #!/bin/sh
 
-DOT="bashrc gitconfig vimrc.local mrconfig tmux.conf liquidprompt jrnl_config"
+DOT="bashrc gitconfig vimrc.local vimrc.before.local mrconfig tmux.conf liquidprompt jrnl_config"
 
 ./spf-13-vim/bootstrap.sh
 
