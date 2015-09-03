@@ -136,6 +136,8 @@ strerror() {
     python -c "import os; print os.strerror($1)"
 }
 
+shopt -s histappend
+
 . "$HOME/.liquidprompt/liquidprompt"
 
 # add autojump support
