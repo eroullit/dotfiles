@@ -73,8 +73,8 @@ checkout = git clone 'git://libvirt.org/libvirt.git' 'libvirt'
 [vcs/git/libzmq]
 checkout = git clone 'git://github.com/zeromq/libzmq.git' 'libzmq'
 
-[vcs/git/linux]
-checkout = git clone 'git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git' 'linux'
+[vcs/git/linux-stable]
+checkout = git clone 'git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git' 'linux-stable'
 
 [vcs/git/llvm]
 checkout = git clone 'http://llvm.org/git/llvm.git' 'llvm'
