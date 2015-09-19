@@ -313,17 +313,17 @@ checkout = git clone 'git://git.code.sf.net/p/tmux/tmux-code' 'tmux-code'
 [vcs/git/tmuxomatic]
 checkout = git clone 'https://github.com/oxidane/tmuxomatic.git' 'tmuxomatic'
 
-[PFQ]
+[vcs/git/PFQ]
 checkout = git clone 'https://github.com/pfq/PFQ.git' 'PFQ'
 
-[bpfjit]
+[vcs/git/bpfjit]
 checkout = git clone 'https://github.com/alnsn/bpfjit' 'bpfjit'
 
-[captop]
+[vcs/git/captop]
 checkout = git clone 'https://github.com/awgn/captop.git' 'captop'
 
-[dpdk-odp]
+[vcs/git/dpdk-odp]
 checkout = git clone 'https://github.com/opendp/dpdk-odp.git' 'dpdk-odp'
 
-[pwd.sh]
+[vcs/git/pwd.sh]
 checkout = git clone 'https://github.com/drduh/pwd.sh.git' 'pwd.sh'
