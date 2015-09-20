@@ -7,7 +7,7 @@
   "default_minute": 0, 
   "highlight": true, 
   "journals": {
-    "default": "/home/local/LAN/emmanuel.roullit/vcs/git/journal/journal.txt"
+    "default": "~/vcs/git/journal/journal.txt"
   }, 
   "tagsymbols": "@"
 }
