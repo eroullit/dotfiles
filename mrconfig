@@ -327,3 +327,9 @@ checkout = git clone 'https://github.com/opendp/dpdk-odp.git' 'dpdk-odp'
 
 [vcs/git/pwd.sh]
 checkout = git clone 'https://github.com/drduh/pwd.sh.git' 'pwd.sh'
+
+[vcs/git/bcc]
+checkout = git clone 'https://github.com/iovisor/bcc.git' 'bcc'
+
+[vcs/git/spdk]
+checkout = git clone 'https://github.com/spdk/spdk.git' 'spdk'
