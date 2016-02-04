@@ -333,3 +333,12 @@ checkout = git clone 'https://github.com/iovisor/bcc.git' 'bcc'
 
 [vcs/git/spdk]
 checkout = git clone 'https://github.com/spdk/spdk.git' 'spdk'
+
+[vcs/git/kitty]
+checkout = git clone 'https://github.com/cisco-sas/kitty.git' 'kitty'
+
+[vcs/git/katnip]
+checkout = git clone 'https://github.com/cisco-sas/katnip.git' 'katnip'
+
+[vcs/git/trex-core]
+checkout = git clone 'https://github.com/cisco-system-traffic-generator/trex-core.git' 'trex-core'
