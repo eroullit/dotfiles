@@ -110,6 +110,14 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
 
+BREW_PATH="$(which brew)"
+
+if [ -n "$BREW_PATH" ]; then
+    if [ -f "$("$BREW_PATH" --prefix)/etc/bash_completion" ]; then
+        . "$("$BREW_PATH" --prefix)/etc/bash_completion"
+    fi
+fi
+
 man() {
 	env \
 		LESS_TERMCAP_mb=$(printf "\e[1;31m") \
