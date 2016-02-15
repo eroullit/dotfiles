@@ -144,6 +144,10 @@ mcd(){
 	mkdir -p "$1" && cd "$1"
 }
 
+meteo(){
+	finger "$1@graph.no"
+}
+
 strerror() {
     python -c "import os; print os.strerror($1)"
 }
