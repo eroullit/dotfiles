@@ -340,5 +340,20 @@ checkout = git clone 'https://github.com/cisco-sas/kitty.git' 'kitty'
 [vcs/git/katnip]
 checkout = git clone 'https://github.com/cisco-sas/katnip.git' 'katnip'
 
+[vcs/git/ctmg]
+checkout = git clone 'git://git.zx2c4.com/ctmg' 'ctmg'
+
+[vcs/git/hitch]
+checkout = git clone 'https://github.com/varnish/hitch.git' 'hitch'
+
+[vcs/git/packet-journey]
+checkout = git clone 'https://github.com/Gandi/packet-journey.git' 'packet-journey'
+
+[vcs/git/rr]
+checkout = git clone 'https://github.com/mozilla/rr.git' 'rr'
+
+[vcs/git/stenographer]
+checkout = git clone 'https://github.com/google/stenographer.git' 'stenographer'
+
 [vcs/git/trex-core]
 checkout = git clone 'https://github.com/cisco-system-traffic-generator/trex-core.git' 'trex-core'
