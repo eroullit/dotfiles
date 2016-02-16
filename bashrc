@@ -90,6 +90,7 @@ alias sl='ls'
 alias json='python -m json.tool'
 alias tmux='TERM=screen-256color-bce tmux'
 alias pubip='dig +short myip.opendns.com @resolver1.opendns.com'
+alias ipinfo='curl -s ipinfo.io | json'
 alias urlencode='python -c "import sys, urllib as ul; print ul.quote_plus(sys.argv[1]);"'
 alias chromekill="ps ux | grep \"[C]hrom* Helper --type=renderer\" | grep -v extension-process | tr -s ' ' | cut -d ' ' -f2 | xargs kill"
 
