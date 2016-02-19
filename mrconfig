@@ -357,3 +357,6 @@ checkout = git clone 'https://github.com/google/stenographer.git' 'stenographer'
 
 [vcs/git/trex-core]
 checkout = git clone 'https://github.com/cisco-system-traffic-generator/trex-core.git' 'trex-core'
+
+[vcs/git/IPython-Dashboard]
+checkout = git clone 'https://github.com/litaotao/IPython-Dashboard' 'IPython-Dashboard'
