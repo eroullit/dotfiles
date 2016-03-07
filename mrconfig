@@ -360,3 +360,6 @@ checkout = git clone 'https://github.com/cisco-system-traffic-generator/trex-cor
 
 [vcs/git/IPython-Dashboard]
 checkout = git clone 'https://github.com/litaotao/IPython-Dashboard' 'IPython-Dashboard'
+
+[vcs/git/hangups]
+checkout = git clone 'https://github.com/tdryer/hangups' 'hangups'
