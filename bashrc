@@ -168,3 +168,5 @@ export LC_ALL="en_US.UTF-8"
 export LANG="en_US.UTF-8"
 export PAGER="less"
 export EDITOR="vi"
+
+[[ -s "$HOME/.gvm/scripts/gvm" ]] && source "/home/emmanuel/.gvm/scripts/gvm"
