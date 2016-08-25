@@ -145,6 +145,7 @@ mcd(){
 }
 
 meteo(){
+	curl "wttr.in/$1"
 	finger "$1@graph.no"
 }
 
@@ -169,4 +170,5 @@ export LANG="en_US.UTF-8"
 export PAGER="less"
 export EDITOR="vi"
 
-[[ -s "$HOME/.gvm/scripts/gvm" ]] && source "/home/emmanuel/.gvm/scripts/gvm"
+test -s "$HOME/.gvm/scripts/gvm" && source "/home/emmanuel/.gvm/scripts/gvm"
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
