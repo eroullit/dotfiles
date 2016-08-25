@@ -27,3 +27,4 @@ set title
 let &titleold=getcwd()
 set t_ts=k
 autocmd BufReadPost,FileReadPost,BufNewFile * call system("tmux rename-window %")
+set colorcolumn=80
