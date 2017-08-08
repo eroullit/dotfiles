@@ -32,3 +32,6 @@
         fsckobjects = true
 [receive]
         fsckObjects = true
+[fsck]
+	zeroPaddedFilemode = ignore
+	badTimezone = ignore
