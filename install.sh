@@ -1,11 +1,8 @@
 #!/bin/sh
 
-DOT="bashrc gitconfig vimrc.local vimrc.before.local mrconfig tmux.conf liquidprompt jrnl_config"
+DOT="bashrc gitconfig vimrc.local vimrc.before.local mrconfig tmux.conf liquidprompt jrnl_config awesome-terminal-fonts"
 
 ./spf-13-vim/bootstrap.sh
-
-mkdir -p ~/.fonts
-cp "$PWD"/awesome-terminal-fonts/patched/*.ttf ~/.fonts
 
 for f in $DOT
 do
