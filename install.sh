@@ -1,6 +1,6 @@
 #!/bin/sh
 
-DOT="bashrc gitconfig vimrc.local vimrc.before.local mrconfig tmux.conf liquidprompt jrnl_config awesome-terminal-fonts"
+DOT="bashrc gitconfig vimrc.local vimrc.before.local mrconfig tmux.conf liquidprompt jrnl_config awesome-terminal-fonts Xresources"
 
 ./spf-13-vim/bootstrap.sh
 

@@ -1,0 +1,9 @@
+XTerm*renderFont: true
+XTerm*faceName: DroidSansMono Nerd Font Mono
+XTerm*faceSize: 10
+
+UXTerm*renderFont: true
+UXTerm*faceName: DroidSansMono Nerd Font Mono
+UXTerm*faceSize: 10
+
+URxvt*letterSpace: -1
