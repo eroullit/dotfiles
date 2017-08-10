@@ -14,6 +14,7 @@
 	email-domains = !git log --format="%aE" | awk -F'@' '{print $2}'
 	unique-email-domains = !git email-domains | sort -u
 	ranked-email-domains = !git email-domains | sort | uniq -c | sort -n
+	fixline = log -1 --abbrev=12 --format='Fixes: %h (\"%s\")'
 [core]
 	editor = vi
 [merge]
@@ -27,11 +28,17 @@
 [push]
 	default = simple
 [transfer]
-        fsckobjects = true
+        fsckobjects = false
 [fetch]
-        fsckobjects = true
+        fsckobjects = false
 [receive]
-        fsckObjects = true
-[fsck]
-	zeroPaddedFilemode = ignore
-	badTimezone = ignore
+        fsckObjects = false
+[sendemail]
+	suppressfrom = true
+	chainreplyto = false
+	confirm = always
+	envelopesender = auto
+	smtpuser = emmanuel.roullit@gmail.com
+	smtpserver = smtp.gmail.com
+	smtpserverport = 587
+	smtpencryption = tls
