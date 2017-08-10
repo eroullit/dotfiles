@@ -10,7 +10,7 @@ set shiftwidth=8
 set noexpandtab
 set nolist
 set shell=/bin/bash
-colorscheme solarized
+color solarized
 noremap <up> <nop>
 inoremap <up> <nop>
 vnoremap <up> <nop>
