@@ -1,9 +1,11 @@
 XTerm*renderFont: true
-XTerm*faceName: DroidSansMono Nerd Font Mono
+XTerm*faceName: DroidSansMono Nerd Font Mono:antialias=false
 XTerm*faceSize: 10
 
 UXTerm*renderFont: true
-UXTerm*faceName: DroidSansMono Nerd Font Mono
+UXTerm*faceName: DroidSansMono Nerd Font Mono:antialias=false
 UXTerm*faceSize: 10
 
 URxvt*letterSpace: -1
+
+Xft.antialias: 0
