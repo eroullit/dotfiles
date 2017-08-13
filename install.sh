@@ -1,6 +1,6 @@
 #!/bin/sh
 
-DOT="bashrc gitconfig vimrc.local vimrc.before.local mrconfig tmux.conf liquidprompt jrnl_config Xresources"
+DOT="bashrc gitconfig vimrc.local vimrc.before.local mrconfig tmux.conf liquidprompt jrnl_config Xresources gdbinit"
 
 ./spf-13-vim/bootstrap.sh
 ./fonts-install.sh
