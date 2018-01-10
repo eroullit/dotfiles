@@ -363,3 +363,6 @@ checkout = git clone 'https://github.com/litaotao/IPython-Dashboard' 'IPython-Da
 
 [vcs/git/hangups]
 checkout = git clone 'https://github.com/tdryer/hangups' 'hangups'
+
+[vcs/git/pcaps]
+checkout = git clone 'https://github.com/markofu/pcaps' 'pcaps'
