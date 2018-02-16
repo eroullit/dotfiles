@@ -366,3 +366,24 @@ checkout = git clone 'https://github.com/tdryer/hangups' 'hangups'
 
 [vcs/git/pcaps]
 checkout = git clone 'https://github.com/markofu/pcaps' 'pcaps'
+
+[vcs/git/aiengine]
+checkout = git clone 'https://bitbucket.com/camp0/aiengine' 'aiengine'
+
+[vcs/git/joy]
+checkout = git clone 'https://github.com/davidmcgrew/joy.git' 'joy'
+
+[vcs/git/nerd-fonts]
+checkout = git clone 'https://github.com/ryanoasis/nerd-fonts/' 'nerd-fonts'
+
+[vcs/git/potiron]
+checkout = git clone 'https://github.com/CIRCL/potiron.git' 'potiron'
+
+[vcs/git/PyPXE]
+checkout = git clone 'https://github.com/psychomario/PyPXE' 'PyPXE'
+
+[vcs/git/rocksdb]
+checkout = git clone 'https://github.com/facebook/rocksdb.git' 'rocksdb'
+
+[vcs/git/xsos]
+checkout = git clone 'https://github.com/ryran/xsos.git' 'xsos'
