@@ -42,3 +42,5 @@
 	smtpserver = smtp.gmail.com
 	smtpserverport = 587
 	smtpencryption = tls
+[pull]
+	rebase = true
