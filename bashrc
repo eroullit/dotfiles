@@ -172,5 +172,6 @@ export EDITOR="vi"
 
 test -s "$HOME/.gvm/scripts/gvm" && . "/home/emmanuel/.gvm/scripts/gvm"
 test -s ~/.jvm/jvm.sh && . ~/.jvm/jvm.sh
+test -s "$HOME/.cargo/env" && . "$HOME/.cargo/env"
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
