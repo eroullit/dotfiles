@@ -1,9 +1,9 @@
 XTerm*renderFont: true
-XTerm*faceName: Fantasque Sans Mono:antialias=false
+XTerm*faceName: mononoki:antialias=true
 XTerm*faceSize: 10
 
 UXTerm*renderFont: true
-UXTerm*faceName: Fantasque Sans Mono:antialias=false
+UXTerm*faceName: mononoki:antialias=true
 UXTerm*faceSize: 10
 
 URxvt*letterSpace: -1
