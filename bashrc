@@ -175,3 +175,4 @@ test -s ~/.jvm/jvm.sh && . ~/.jvm/jvm.sh
 test -s "$HOME/.cargo/env" && . "$HOME/.cargo/env"
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+export PATH="$PATH:$HOME/.cargo/bin" # Add cargo to PATH
