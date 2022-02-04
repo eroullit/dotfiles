@@ -9,3 +9,6 @@ UXTerm*faceSize: 10
 URxvt*letterSpace: -1
 
 Xft.antialias: 0
+
+xterm*background: black
+xterm*foreground: lightgray
